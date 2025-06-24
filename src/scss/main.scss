@@ -10,10 +10,12 @@
 @use 'layout/container';
 
 // ==== 4. Components ====
-@use 'components/button';
-@use 'components/card';
 @use 'components/header';
-
+@use 'components/button';
 body {
   background-color: var(--main-color);
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Poppins", "sans-serif";
 }
+

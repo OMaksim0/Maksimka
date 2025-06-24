@@ -1,0 +1,99 @@
+.banner {
+    background-image: url("../images/fon1.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 713px;
+    width: 100%;
+    height: 713px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.vstavka_fon{
+    background-color: #FFF3E3;
+    width: 643px;
+    height: 443px;
+    margin-right: 3%;
+    .vstavka_text{
+        padding: 6%;
+        .arrival{
+            font-size: 1rem;
+            margin-top: 30px;
+        }
+        .collection{
+            font-size: 2.7rem;
+            width: 60%;
+            color: #B88E2F;
+            margin-top: 12px;
+        }
+        .komm{
+            font-size: 1.3rem;
+            width: 93%;
+            margin-top: 12px;
+        }
+        button{
+            margin-top: 3%;
+            border: 0;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-top: 80px;
+        }
+    }
+}
+.Browse_The_Range{
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+    .browse_text_one{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 100%;
+        letter-spacing: 0px;
+    }
+    .browse_text_two{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 100%;
+        letter-spacing: 0px;
+        text-align: center;
+        color: #666666;
+        margin-top: 20px;
+    ;
+    }
+    .browse_kartochki{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        gap: 40px;
+        .foto1{
+            height: 581px;
+            width: 480px;
+        }
+        .browse_kartochki_one_text{
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 100%;
+            letter-spacing: 0px;
+            text-align: center;
+            margin-top: 10px;
+        }
+        .browse_kartochki_two_text{
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 100%;
+            letter-spacing: 0px;
+            text-align: center;
+            margin-top: 10px;
+        }
+        .browse_kartochki_three_text{
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 100%;
+            letter-spacing: 0px;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+    }
+}
