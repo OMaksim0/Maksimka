@@ -23,14 +23,15 @@
             <div class="komm">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Ut elit tellus, luctus nec ullamcorper mattis.
             </div>
-            <button class="button" style="border-right: 0px;
-        padding-left: 72px;
-        padding-right: 72px;
-        padding-top: 25px;
-        padding-bottom: 25px;
-        background-color: var(--primary-color);">
-                <span>Buy now</span>
-            </button>
+            @@include('../components/_button.html', {
+            "padding-x": "102px",
+            "padding-y": "25px",
+            "color":   "var(--primary-color)",
+            "text_color": "white",
+            "border": "0px",
+            "border-color": "var(--primary-color)",
+            "title": " Buy Now"
+            })
         </div>
     </div>
 </div>
@@ -70,16 +71,132 @@
         </div>
     </div>
 </div>
+<div class="kart_pages_one">
+    <div class="kart_pages_one_text">
+        Our Products
+    </div>
 
+</div>
+<div class="button_kart">
+    @@include('../components/_button.html', {
+    "padding-x": "102px",
+    "padding-y": "25px",
+    "color":   "var(--main-color)",
+    "text_color": " var(--primary-color)",
+    "border": "1px",
+    "border-color": "var(--primary-color)",
+    "title": " Show  More"
+    })
+</div>
+<div class="beautiful_rooms">
+    <div class="beautiful_rooms_left">
+        <div class="beautiful_rooms_text">
+            <div class="beautiful_rooms_text_one">
+                50+ Beautiful rooms <br> inspiration
+            </div>
+            <div class="beautiful_rooms_text_two">
+                Our designer already made a lot of beautiful <br> prototipe of rooms that inspire you
+            </div>
+        </div>
+        <div class="button_beautiful_rooms">
+            @@include('../components/_button.html', {
+            "padding-x": "62px",
+            "padding-y": "20px",
+            "color":   "var(--primary-color)",
+            "text_color": " var(--main-color)",
+            "border": "1px",
+            "border-color": "var(--primary-color)",
+            "title": " Explore More"
+            })
+        </div>
+    </div>
+    <div class="beautiful_rooms_vstavka">
+        <div class="beautiful_rooms_vstavka_one">
+            <div class="beautiful_rooms_vstavka_text">
+                <div class="beautiful_rooms_vstavka_text_one">
+                    01 - Bed Room
+                </div>
+                <div class="beautiful_rooms_vstavka_text_two">
+                    Inner Peace
+                </div>
+            </div>
+        </div>
+        <div class="beautiful_rooms_vstavka_two">
+            <div class="beautiful_rooms_vstavka_knopka">
+                @@include('../components/_button.html', {
+                "padding-x": "20px",
+                "padding-y": "10px",
+                "color":   "var(--primary-color)",
+                "text_color": " var(--main-color)",
+                "border": "1px",
+                "border-color": "var(--primary-color)",
+                "title": " ➜ ",
+                "font-size": "40px"
+                })
+            </div>
+        </div>
+    </div>
+    <div class="beautiful_rooms_foto">
+        <div class="beautiful_rooms_foto_one">
+            <img src="/assets/images/beautiful_room_one.webp" alt="">
+        </div>
+        <div class="beautiful_rooms_foto_two">
+            <img src="/assets/images/beautiful_room_two.webp" alt="">
+            <div class="beautiful_rooms_ellips">
+                <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle opacity="0.7" cx="13.5" cy="13.5" r="13" stroke="#B88E2F"/>
+                    <circle cx="13.5" cy="13.5" r="5" fill="#B88E2F" stroke="#B88E2F"/>
+                </svg>
+                <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="5.5" cy="5.5" r="5.5" fill="#D8D8D8"/>
+                </svg>
+                <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="5.5" cy="5.5" r="5.5" fill="#D8D8D8"/>
+                </svg>
+                <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="5.5" cy="5.5" r="5.5" fill="#D8D8D8"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="funirofurniture">
+    <div class="funirofurniture_text">
+        <div class="funirofurniture_text_one">
+            Share your setup with
+        </div>
+        <div class="funirofurniture_text_two">
+            #FuniroFurniture
+        </div>
+    </div>
+    <div class="funirofurniture_foto">
+        <div class="funirofurniture_foto_left">
+            <div class="funirofurniture_foto_onepara">
+                <img src="/assets/images/funiro1.webp"  alt="" class="funiro_foto" height="380px" width="274px">
+                <img src="/assets/images/funiro2.webp"  alt="" class="funiro_foto">
+            </div>
+            <div class="funirofurniture_foto_twopara">
+                <img src="/assets/images/funiro3.webp"  alt="" class="funiro_foto">
+                <img src="/assets/images/funiro4.webp"  alt="" class="funiro_foto">
+            </div>
+        </div>
+        <div class="funirofurniture_foto_centr">
+            <img src="/assets/images/funiro5.webp"  alt="" class="funiro_foto">
+        </div>
+        <div class="funirofurniture_foto_right">
+            <div class="funirofurniture_foto_threepara">
+                <img src="/assets/images/funiro6.webp"  alt="" class="funiro_foto">
+                <img src="/assets/images/funiro7.webp"  alt="" class="funiro_foto">
+            </div>
+            <div class="funirofurniture_foto_fourpara">
+                <img src="/assets/images/funiro8.webp"  alt="" class="funiro_foto">
+                <img src="/assets/images/funiro9.webp"  alt="" class="funiro_foto">
+            </div>
+        </div>
+    </div>
 
-
-
-
-
-
-
-
-
+</div>
+@@include('../components/_footer.html')
 
 
 <!--@@include('../css/_card.html', {-->

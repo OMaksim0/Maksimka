@@ -1,0 +1,111 @@
+.footer {
+  background-color: #f9f9f9;
+  padding: 60px 40px 30px;
+  color: #333;
+}
+
+.footer-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-brand {
+  width: 30%;
+}
+
+.footer-brand h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.footer-brand p {
+  line-height: 1.6;
+  color: gray;
+}
+
+.footer-columns {
+  width: 65%;
+  display: flex;
+  gap: 40px;
+}
+
+.links-column,
+.help-column,
+.newsletter-column {
+  flex: 1;
+  font-weight: bold;
+}
+
+.links-column h3,
+.help-column h3,
+.newsletter-column h3 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 35px;
+  letter-spacing: 1px;
+  color: gray;
+  margin-left: 40px;
+}
+
+.links-column ul,
+.help-column ul {
+  list-style: none;
+}
+
+.links-column li,
+.help-column li {
+  margin-bottom: 30px;
+}
+
+.links-column a,
+.help-column a {
+  text-decoration: none;
+  color: #666;
+}
+
+.links-column a:hover,
+.help-column a:hover {
+  color: #000;
+}
+
+.newsletter-form {
+  display: flex;
+}
+
+.newsletter-form input {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  margin-bottom: 10px;
+  border: none; /* Убираем все границы */
+  border-bottom: 2px solid #000000; /* Добавляем только нижнюю рамку */
+}
+
+.newsletter-form button {
+  padding: 12px 20px;
+  height: 42px;
+  margin-left: 10px;
+  color: black;
+  border: none; /* Убираем все границы */
+  border-bottom: 2px solid #000000; /* Добавляем только нижнюю рамку */
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.newsletter-form button:hover {
+  background-color: #9f9f9f;
+  border-bottom-color: #c5c5c5; /* Цвет рамки при наведении */
+}
+
+.footer-copyright {
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+  text-align: left;
+  color: #666;
+  font-size: 14px;
+  margin: 0 auto;
+  font-weight: bold;
+}

@@ -74,7 +74,7 @@
             font-weight: 600;
             font-size: 24px;
             line-height: 100%;
-            letter-spacing: 0px;
+            letter-spacing: 0;
             text-align: center;
             margin-top: 10px;
         }
@@ -82,7 +82,7 @@
             font-weight: 600;
             font-size: 24px;
             line-height: 100%;
-            letter-spacing: 0px;
+            letter-spacing: 0;
             text-align: center;
             margin-top: 10px;
         }
@@ -97,3 +97,138 @@
 
     }
 }
+.kart_pages_one{
+    align-items: center;
+    text-align: center;
+    margin-top: 56px;
+    .kart_pages_one_text{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 120%;
+        letter-spacing: 0;
+        text-align: center;
+
+    }
+}
+.button_kart{
+    align-items: center;
+    text-align: center;
+    margin-top: 32px;
+}
+.beautiful_rooms {
+    margin-top: 50px;
+    display: flex;
+    background-color: #FCF8F3;
+    position: relative;
+    .beautiful_rooms_left {
+        margin-left: 75px;
+        margin-top: 200px;
+        .beautiful_rooms_text_one {
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 120%;
+            letter-spacing: 0%;
+        }
+
+        .beautiful_rooms_text_two {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            letter-spacing: 0%;
+            color: #666666;
+            margin-top: 20px;
+        }
+        .button_beautiful_rooms {
+            margin-top: 20px;
+        }
+    }
+    .beautiful_rooms_vstavka {
+        position: absolute;
+        right: 720px;
+        top: 80%;
+        transform: translateY(-30%);
+        z-index: 2;
+        display: flex;
+        .beautiful_rooms_vstavka_text {
+            background-color: rgba(255, 255, 255, 0.75);
+            width: 237px;
+            height: 90px;
+            padding: 20px;
+            .beautiful_rooms_vstavka_text_one {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 150%;
+                letter-spacing: 0;
+                color: #666666;
+            }
+            .beautiful_rooms_vstavka_text_two {
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 120%;
+                letter-spacing: 0;
+            }
+        }
+        .beautiful_rooms_vstavka_knopka{
+            margin-top: 53px;
+        }
+    }
+    .beautiful_rooms_foto {
+        display: flex;
+        gap: 35px;
+        margin-top: 25px;
+        .beautiful_rooms_foto_one{
+            margin-left: 350px;
+            position: relative;
+            z-index: 1;
+
+        }
+        .beautiful_rooms_foto_two {
+            position: relative;
+            z-index: 1;
+            .beautiful_rooms_ellips {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+.funirofurniture{
+    margin-top: 67px;
+    align-items: center;
+    text-align: center;
+    .funirofurniture_text_one{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0;
+        text-align: center;
+        color: #666666;
+
+    }
+    .funirofurniture_text_two{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 120%;
+        letter-spacing: 0;
+        text-align: center;
+
+    }
+    .funirofurniture_foto{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .funiro_foto{
+            padding: 20px;
+        }
+    }
+}
+
+
+
+
+
+
+
+

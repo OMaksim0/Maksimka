@@ -12,6 +12,8 @@
 // ==== 4. Components ====
 @use 'components/header';
 @use 'components/button';
+@use 'components/kartochka';
+@use 'components/footer';
 body {
   background-color: var(--main-color);
   margin-left: auto;
